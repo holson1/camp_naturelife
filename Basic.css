@@ -1,0 +1,351 @@
+*{
+	/* For Editing 
+	border-style:solid;
+	border-width:1px;
+	*/
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	position:relative;
+	background: url(./Images/TheForestClearing.jpg);
+	background-attachment: fixed;
+	background-size:100%;
+}
+
+.page{
+
+	width: 900px;
+	background-color:#8C6D53;
+
+	-webkit-box-shadow: inset 0px -1px 7px 4px #3F2714;
+/*	-webkit-box-shadow: inset 0px -1px 15px 6px #3F2714;	*/
+	/*border: 1px solid black;*/
+
+	/*background: url(./Images/BarkTexture.jpg);*/
+
+	margin:auto;
+	margin-top: -21px;
+	padding-left: 30px;
+	padding-right: 30px;
+/*	padding-top: 39px;*/
+}
+
+.navbar {
+	border-style:outset;
+	border-color:#5C3A1F;
+	border-width:3px;
+}
+
+.Header{
+	position:relative;
+	height: 170px;
+	text-align:center;
+/*	background-color: #DBC7A0;*/
+	background: url(./Images/forestWallpaper.jpg);
+	background-size:100%;
+	background-position:center center;
+
+
+	padding-top:124px;
+	border-bottom-style:none;
+
+	font-family:"Arial";
+	font-size:1.4em;
+
+}
+
+.Header img{
+
+	position:absolute;	
+	height:70px;
+	width:70px;
+	bottom:10px;
+	left:12.5px;	
+}
+
+.Header h1{
+	position:absolute;
+	bottom:12.5px;
+	left: 95px;
+	color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	margin:0px;
+}
+
+
+#greeting {
+	font-size: 17px;
+	position:absolute;
+	bottom:5;
+	right:20;
+	margin:0px;
+	color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+/*	margin-top: -35px;
+	text-align: right;
+	margin-right: 10px;
+*/
+}
+
+.NavBar{
+	height:30px;
+	background-color: #6B5139;
+	/*background-image:url(./Images/BarkTexture2.jpg);*/
+	background-size:100%;
+
+	display:block;
+
+	border-left-width:6px;
+	border-right-width:6px;
+}
+
+.NavBar a{
+	text-decoration: none;
+	font-family:"Arial";
+
+	
+	color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	line-height: 30px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top:10px;
+}
+
+.NavBar a:hover{
+	text-decoration:underline;
+}
+
+.NavBar #logoutbutton {
+	float: right;
+	margin-top: -1px;
+	margin-right: 5px;
+}
+
+.NavBar > input {
+	cursor:pointer;
+
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	background: none;
+	padding: 0px;
+	border: none;
+
+	font-style: normal;
+	line-height: 20px;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-size: 16px;
+	font-family: "Times New Roman";
+}
+
+
+#login {
+	position: fixed;
+	left: 355px;
+	top: 160px;
+
+	height: 200px;
+	width: 300px;
+	background-color: rgba(245,245,220,.95);
+	border: outset 3px #8C6D53;
+
+	padding-left: 10px;
+}
+
+#login > h1 {
+	text-align: center;
+}
+
+#login input[type=button], #login input[type=submit]{
+	cursor:pointer;
+}
+
+#login > #closelogin {
+}
+
+#closelogin {
+	float: right;	
+	margin-top: -75px;
+}
+
+.Content{
+	min-height: 300px;
+	/*background-color: #DBC7A0;*/
+	/*border-top-style:none;*/
+	background-color: #DBC7A0;
+	border-style:none;
+	overflow: hidden;
+	padding-top:10px;
+	padding-bottom:10px;
+/*	text-align: center;*/
+}
+
+.content > div{
+	border-style:ridge;
+	border-width:4px;
+	border-color:#5C3A1F;
+	background-color:beige;
+}
+/*
+.content > img{
+	height: 350px;
+	width: 900px;
+}
+
+
+aside {
+	margin-right: 10px;
+	padding: 5px;
+	float: right;
+	width: 50%;
+	height: 450px;
+	border: 3px outset #5C3A1F;
+	background-color: beige;
+}
+
+aside > p, li {
+	text-align: left;
+	font-weight: normal;
+}
+
+#actheader {
+	font-weight: bold;
+}
+
+#camploc {
+	font-style: italic;
+}
+
+#map-canvas {
+	width: 400px;
+	height: 300px;
+	margin-left: 10px;
+}
+
+#testimonial {
+	margin-left: 10px;
+	width: 390px;
+	height: 144px;
+	font-style: italic;
+	text-align: left;
+	padding-right: 10px;
+}
+
+#testimonial > img {
+	float: left;
+	margin-top: 7px;
+	margin-left: 10px;
+	border: 1px solid black;
+	margin-right: 10px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: beige;
+	font-size: 14px;
+}
+
+.taxis {
+	background-color: lightgray;
+}
+
+.open {
+	background-color: lightgreen;
+}
+
+#registration {
+	width: 790px;
+	margin: auto;
+	background-color: beige;
+}
+
+form {
+	text-align: left;
+}
+
+form > select {
+	height: 28px;
+	font-size: 15px;
+}
+
+#fcol1 {
+	margin-left: 75px;
+}
+
+#fcol1 > input, #fcol1 > select, #fcol2 > input , #fcol2 > select {
+	height: 28px;
+	width: 200px;
+	font-size: 15px;
+}
+
+#fcol2 {
+	float: right;
+	margin-right: 45px;
+}
+
+#agelbl {
+	float: right;
+	margin-right: 30px;
+	margin-top: 150px;
+}
+
+#ageselect {
+	float: right;
+	margin-right: 70px;
+	margin-top: 150px;
+}
+
+#gendlbl {
+	clear: left;
+	float: right;
+	margin-right: -90px;
+	margin-top: 210px;
+}
+
+#gendselect {
+	float: right;
+	margin-right: -145px;
+	margin-top: 210px;
+}
+
+#totalfee {
+	font-weight: bold;
+	position: relative;
+	left: 570px;
+	top: 373px;
+}
+
+#fcol1 > #expmonth {
+	width: 26px;
+}
+
+#fcol1 > #expyear {
+	width: 50px;
+}
+
+#fcol2 > #CSV {
+	width: 40px;
+}
+
+#regsubmit {
+	position: relative;
+	left: 570px;
+	top: -25px;
+}
+
+*/
+footer{
+	padding-bottom:30px;
+	text-align:center;
+}
+
+

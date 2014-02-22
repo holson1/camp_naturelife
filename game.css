@@ -1,0 +1,88 @@
+#gameArea{
+
+	height:600px;
+	width:892px;
+	margin:auto;
+	background-image: url('./Images/LeafPattern.png');
+	position:relative;
+
+}
+
+#gameControl{
+
+	height:100%;
+	width:100%;
+	background-color: rgba(58,38,18,.95);
+
+	text-align:center;
+
+}
+
+#gameControl h1{
+
+	margin:0px;
+	color:white;
+	font-family:'Arial';
+	font-size:4em;
+	text-shadow:black 0.1em 0.1em 0.2em;
+}
+
+#gameControl p{
+
+	color:white;
+	text-shadow:black 0.1em 0.1em 0.2em;
+	font-size:2em;
+}
+
+#gameControl input{
+	
+	cursor:pointer;
+	
+	background-color:#218321;
+	color:white;
+	font-size:20px;
+	border-style:outset;
+	height:40px;
+	width:180px;
+
+
+}
+
+#leaf{
+	position:absolute;
+	width:100px; 
+	height:100px; 	
+	background-image:url('./Images/Leaf.png');
+	background-size:120%;
+
+	-webkit-animation: spin 2.5s infinite linear;
+	-moz-animation: spin 2.5s infinite linear;
+	-o-animation: spin 2.5s infinite linear;
+	-ms-animation: spin 2.5s infinite linear;
+
+}
+
+
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin {
+0% { -moz-transform: rotate(0deg);}
+100% { -moz-transform: rotate(360deg);}
+}
+@-o-keyframes spin {
+0% { -o-transform: rotate(0deg);}
+100% { -o-transform: rotate(360deg);}
+}
+@-ms-keyframes spin {
+0% { -ms-transform: rotate(0deg);}
+100% { -ms-transform: rotate(360deg);}
+}
+
+
+
+
+
+
+

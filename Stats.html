@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<title> Camp Statistics </title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script language="javascript" src="Functions.js"></script>
+<script language="javascript" src="stats.js"></script>
+<script language="javascript" src="locations.js"></script>
+<link rel="stylesheet" type="text/css" href="Basic.css"/>
+<link rel="stylesheet" type="text/css" href="stats.css"/>
+
+</head>
+
+<?php include "./PHP/StatsFunctions.php"; ?>
+
+<body onload="initialize()">
+<div class="page">
+	
+	<div class="Header">
+		<h1>Camp Statistics</h1>	
+	</div>
+	
+	<div class="NavBar">
+	<!--	LOAD LINKS TO OTHER PAGES	-->
+	</div>
+
+	<div class="Content">
+		<div id="statsBoard">
+			<?php
+				// loadVisualization();
+			?>
+		</div>
+
+		<div id="statsBottom" >
+
+			<div id="statsInfo">
+				<form id="statsCtrl">
+					<label for="statSelector">Statistic</label>
+					<select onchange="statsSelection">
+						<option value="byCamp" name="byCamp" >Registration By Camp!</option>
+						<option value="byAge" name="byAge" >Registration By Age!</option>
+						<option value="bySpent" name="bySpent" >Distribution Of Wealth!</option>
+					</select>
+				</form>
+				<div id="statsDescription">
+					<h3> Title </h3>
+					<p>
+						somewgwgre 
+					</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<hr>
+
+	<footer>
+		<address>
+			Henry Olsen - holsen@scu.edu
+
+			<br>
+			Nick Dario - ndario@scu.edu
+		</address>
+	</footer>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<svg  width="33" height="33" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+<!-- Recycling Button
+	<polyline stroke="white" stroke-width="1" fill="white" points=" 10,3 0,25 4,33 28,33 33,25 22,3"/>
+
+	<polyline stroke="#6DA037" stroke-width="4" fill="none" points=" 8,20 5,26 6,28 12,28 "/>
+	<polyline stroke="#6DA037" stroke-width="4" fill="none" points="10,26 13,28 10,30"/> 
+
+	<polyline stroke="#6DA037" stroke-width="4" fill="none" points=" 18,28 27,28 28,26 25,20" />
+	<polyline stroke="#6DA037" stroke-width="2" fill="#6DA037" points="23.75,23.5 24,18 28.75,21.165" /> 
+
+	<polyline stroke="#6DA037" stroke-width="4" fill="none" points=" 22.5,15 18,7 14.5,7 11,14"/>
+	<polyline stroke="#6DA037" stroke-width="2" fill="#6DA037" points="" />  -->
+
+	<!-- <circle cx="17" cy="17" r="10" fill="#6DA037" onclick="removeFromCart()"/> -->
+
+<!-- Forest Style Trash Can
+	<polyline stroke="#777" stroke-width="3" fill="#777" points=" 4,10 14,5 14,2 20,2 20,5 30,10 " />
+	<polyline stroke="#777" stroke-width="3" fill="#777" points=" 9,11 12,27 22,27 25,11 " />
+	<line stroke="#555" stroke-width="2" x1="21" y1="28" x2="22.5" y2="11" />
+	<line stroke="#555" stroke-width="2" x1="17" y1="28" x2="17" y2="11" />
+	<line stroke="#555" stroke-width="2" x1="13" y1="28" x2="11.5" y2="11" />
+	<line stroke="#555" stroke-width="3" x1="13" y1="2" x2="21" y2="2" />
+-->
+
+ 	 <rect x="7.5" y="6" rx="1" ry="1" width="20" height="4" style="fill:#777;stroke:#777;"/>
+	<polyline stroke="#777" stroke-width="3" fill="#777" points=" 10,11 11,27 24,27 25,11 " />
+	<line stroke="#555" stroke-width="2" x1="22.5" y1="28" x2="22.5" y2="11" />
+	<line stroke="#555" stroke-width="2" x1="17.5" y1="28" x2="17.5" y2="11" />
+	<line stroke="#555" stroke-width="2" x1="13" y1="28" x2="13" y2="11" />
+	<line stroke="#555" stroke-width="3" x1="13.5" y1="4" x2="21" y2="4" />
+
+
+
+</svg>

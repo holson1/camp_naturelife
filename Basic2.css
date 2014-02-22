@@ -1,0 +1,93 @@
+*{
+	/* For Editing 
+	border-style:solid;
+	border-width:1px;
+	*/
+}
+body{
+	/*background-color:#66A854;*/
+	background: url(./Images/TheForestClearing.jpg);
+	background-size: 100%;
+
+}
+.page{
+
+	width: 900px;
+	background-color:#8C6D53;
+	-webkit-box-shadow: inset 0px -1px 7px 4px #3F2714;
+
+	/*background: url(./Images/BarkTexture.jpg);*/
+
+	position:relative;
+
+	margin:auto;
+	margin-top:-21px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 39px;
+}
+
+.content, .header, .navbar {
+	border-style:outset;
+	border-color:#5C3A1F;
+	border-width:3px;
+}
+
+.Header{
+	height: 70px;
+	text-align:center;
+	background-color: #DBC7A0;
+
+	padding-top:5px;
+	border-bottom-style:none;
+
+}
+
+
+.NavBar{
+	height:30px;
+	background-color: #6B5139;
+	display:block;
+
+	border-left-width:6px;
+	border-right-width:6px;
+
+}
+
+.NavBar a{
+	text-decoration: none;
+	font-family:"Arial";
+	color:white;
+	line-height: 30px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top:10px;
+
+}
+.NavBar a:hover{
+/*	color:#83CE6E;
+*/
+	text-decoration: underline;
+}
+
+.Content{
+	min-height: 300px;
+	background-color: #DBC7A0;
+	border-top-style:none;
+	position:relative;
+	overflow: hidden;
+	padding-bottom:10px;
+}
+
+.content > div{
+	border-style:ridge;
+	border-width:3px;
+	border-color: #8C6D53;
+}
+
+
+footer{
+
+	text-align:center;
+}

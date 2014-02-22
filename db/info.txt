@@ -1,0 +1,15 @@
+#CHARACTER : AWESOMNESS LEVEL
+
+
+Starbuck:100
+Ahab:120
+Stubbs:85
+Hiro Protagonist:110
+YT:99
+Donotello (TMNT):70
+Pooh Bear:75
+Sherlock Holmes:85
+Watson:80
+Ms.Frizzle:130
+
+

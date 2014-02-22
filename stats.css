@@ -1,0 +1,61 @@
+.content{
+	padding:10px;
+	padding-top:20px;
+
+}
+
+.content div{
+	background-color: #FFF5CC;
+}
+
+#statsBoard{
+
+	position:relative;
+	margin-bottom: 10px;
+	height:500px;
+
+}
+
+.statdisplay{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#agedisplay{
+	position:absolute;
+	bottom:0;
+	
+}
+
+
+#statsInfo{
+
+	padding:20px;
+	overflow: hidden;
+
+}
+
+#statsInfo div{
+	float:left;
+	margin:0px;
+	margin-left: 40px;
+	max-width:550px;
+	overflow:hidden;
+}
+
+#statsInfo p{
+	margin:0px;
+	float:left;
+	clear:left;
+}
+
+#statsInfo h3{
+	margin:0px;
+	float:left;
+}
+
+#statsInfo form{
+	float:left;
+}
+

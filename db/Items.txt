@@ -1,0 +1,11 @@
+#ItemName&Price&Description&Special&Image&ID
+#Winter Sweater
+Winter Sweatshirt&30.00&This vintage holiday sweatshirt will keep you warm and bring a smile to all who see it. Buy one for your kids! If they don't appreciate it now, they will when they develop a rebellious sense of irony.&0&./Images/wintersweater.jpg&01
+#Water bottle
+Water Bottle&10.00&Boy, What a water bottle. This stainless steal piece of eye candy will hold your water and make alll the guys and gals jealous. equipped with a lid, you need never worry about spilling its contents.&0&./Images/water-bottle.jpg&02
+#Beanie
+Beanie&12.00&Wow! This beautiful piece of cloth is all about making you happy. Think about your head and think how it could be comfier. This beanie is that ticket to cozy town.&0&./Images/beanie.jpg&03
+#TrailMix
+TrailMix&4.00&Delicious and Nutritious! Warning, this trail mix contains nuts, chocolate, and a punch in the face of the flavor of nature. Order now or be hungry soon!&0&./Images/TrailMix.jpg&04
+#Rifle
+Rifle&100.00&BAM! Careful campers, this is no toy. Not recommended for children under the age of 12 without the use of blanks.&0&./Images/Rifle.jpg&05

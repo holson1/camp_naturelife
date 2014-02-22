@@ -1,0 +1,198 @@
+
+.Content{
+	min-height: 300px;
+/*	background-color: #DBC7A0;
+	border-top-style:none;
+ */
+	border-style:none;
+	overflow: hidden;
+	padding-bottom:10px;
+	text-align: center;
+}
+
+.content > div{
+	border-style:ridge;
+	border-width:3px;
+	border-color: #8C6D53;
+	margin-top: 10px;
+}
+
+.content > img{
+	height: 350px;
+	width: 900px;
+}
+
+
+aside {
+	margin-right: 10px;
+	padding: 5px;
+	float: right;
+	width: 50%;
+	height: 450px;
+	border: 3px outset #5C3A1F;
+	background-color: beige;
+}
+
+aside > p, li {
+	text-align: left;
+	font-weight: normal;
+}
+
+#actheader {
+	font-weight: bold;
+}
+
+#camploc {
+	font-style: italic;
+}
+
+#map-canvas {
+	width: 400px;
+	height: 300px;
+	margin-left: 10px;
+}
+
+#testimonial {
+	margin-left: 10px;
+	width: 390px;
+	height: 144px;
+	font-style: italic;
+	text-align: left;
+	padding-right: 10px;
+}
+
+#testimonial > img {
+	float: left;
+	margin-top: 7px;
+	margin-left: 10px;
+	border: 1px solid black;
+	margin-right: 10px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: beige;
+	font-size: 14px;
+}
+
+.taxis {
+	background-color: lightgray;
+}
+
+.open {
+	background-color: lightgreen;
+}
+
+#registration {
+	width: 790px;
+	margin: auto;
+	background-color: beige;
+}
+
+#currentCampers{
+	width: 790px;
+	margin: auto;
+	margin-top:10px;
+
+	padding-bottom:30px;
+}
+
+
+#currentCampers table{
+	border-collapse:collapse;
+	width:500px;
+	text-align:left;
+}
+
+#currentCampers th{
+	border-bottom-style:solid;
+	border-width:1px;
+	
+}
+
+
+form {
+	text-align: left;
+}
+
+form > select {
+	height: 28px;
+	font-size: 15px;
+}
+
+#userInfo > input {
+	height: 28px;
+	width: 200px;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#userInfo {
+	text-align: center;
+	margin-auto;
+}
+
+#fcol1 {
+	margin-left: 75px;
+}
+
+#fcol1 > input, #fcol1 > select, #fcol2 > input , #fcol2 > select {
+	height: 28px;
+	width: 200px;
+	font-size: 15px;
+}
+
+#fcol2 {
+	float: right;
+	/*margin-right: 45px;*/
+	margin-right: 50px;
+}
+
+#fcol3 {
+	float: right;
+	margin-right: 40px;
+}
+
+#agelbl, #ageselect {
+	margin-top: 3px;
+}
+
+#gendlbl, #gendselect {
+	margin-top: 41px;
+}
+
+#totalfee {
+	font-weight: bold;
+	margin-top: 105px;
+}
+
+#fcol1 > #expmonth {
+	width: 26px;
+}
+
+#fcol1 > #expyear {
+	width: 50px;
+}
+
+#fcol2 > #CSV {
+	width: 40px;
+}
+
+#regsubmit {
+	position: relative;
+	left: 570px;
+	top: -25px;
+}
+
+.errtext {
+	color: red;
+}
+
+footer{
+
+	text-align:center;
+}
+
+
